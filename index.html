@@ -1,1 +1,133 @@
-Hello World
+<html>
+<head title="Links">
+   <link rel="stylesheet" type="text/css" href="themes/site.css">
+    <link rel="stylesheet" href="javascript/damiengarbarino/dojo-calendar/themes/claro/Calendar.css" />
+<script>
+    var dojoConfig = {
+            async: true,
+            packages: [{
+                name: "jeffmyers",
+                location: location.pathname.replace(/\/[^/]*$/, '') +'/javascript/jeffmyers'},
+                {name:"damiengarbarino",// 
+                location:location.pathname.replace(/\/[^/]*$/, '') +'/javascript/damiengarbarino'
+            }]
+        };
+    
+    </script>     
+         
+         <script src="//ajax.googleapis.com/ajax/libs/dojo/1.10.1/dojo/dojo.js"></script>
+
+    
+    <style>
+         .dojoxCalendar{ font-size: 12px; font-family:Myriad,Helvetica,Tahoma,Arial,clean,sans-serif; }
+	</style>
+<script>
+    
+            console.log("hello");
+require(['jeffmyers/calendarWidget',"dojox/calendar/Calendar", 'dojo/dom','dojo/parser',
+    'dojo/ready'],function(calender,CalendarX,dom,parser,ready){
+ready(function(){
+  parser.parse();
+});
+console.log("hello");
+    
+});
+
+    </script>
+    
+</head>
+<body class="claro">
+	<div id="center-title" class="title">
+<u>Useful Links</u>
+</div>
+<div id="links" style="display: inline-block">
+	<a href="http://learn.jquery.com/about-jquery/how-jquery-works/" target="_blank">JQuery Tutors</a><br>
+	<a href="http://dojotoolkit.org/documentation/" target="_blank">Dojo Tools</a><br>
+	<a href="https://github.com/dojo/" target="_blank">Dojo GitHub</a>
+	<a href="http://jqueryui.com/demos/" target="_blank">  JQuery UI Demos</a>
+	<a href="http://nadev.arcgis.com/arcgi/samples/geocodeig/geosearch.html" target="_blank">  GeoSearch Example</a><br>
+    <a href="https://marketplace.arcgis.com/listing.html?id=c34019b0623041608df4d06970a7a96a&utm_source=esri&utm_medium=email&utm_term=90801&utm_content=footer&utm_campaign=app_spotlight_news_march_2015">Admin Tools for ArcGIS Online</a><br />
+		<a href="http://developers.arcgis.com" target="_blank">  Developers GeoCoding Development</a><br>
+		<a href="https://geonet.esri.com/welcome">GeoNet</a><br>	
+
+			
+		<a href="http://coolestguidesontheplanet.com/get-apache-mysql-php-phpmyadmin-working-osx-10-9-mavericks/">Figure Out how o configure phpadmin and mysql after installing it."</a><br>
+		<a href="http://howtolamp.com/lamp/mysql/5.6/securing/">how I secured it after installing it</a><br>
+		<a href="http://www.sitepoint.com/how-to-deploy-your-first-app-to-phpcloud/"> php cloud</a><br> 
+		
+		<a href="http://coreymaynard.com/blog/creating-a-restful-api-with-php/">Rest Services via php</a><br>
+		<br>
+		<a href="http://php.net/manual/en/install.windows.iis7.php" target="_blank">Configure PHP for IIS</a><br/>
+		8/11/2014: I had a problem trying to run an MVC app and this solved it....<br />
+		<a href="http://stackoverflow.com/questions/1741439/asp-mvc-in-iis-7-results-in-http-error-403-14-forbidden"_ target="blank">MVC IIS error</a>
+		cd \
+cd Windows\Microsoft.NET\Framework\v4.xxx.xxx
+aspnet_regiis -i
+<br>
+<a href="http://support.microsoft.com/kb/909887">troubleshooting login problems</a>
+<br>
+<a href="%windir%\Microsoft.NET\Framework64\v4.0.30319\aspnet_regiis.exe -i">IIS isn't completly installed</a>
+<a href ="http://www.infoworld.com/t/microsoft-windows/microsoft-slow-fix-office-2013-click-run-error-30145-4-solution-exists-244581"> Link for Dustin if everything works</a>
+<br>
+<a href="http://forums.iis.net/t/1086863.aspx?NTLM+Authentication+not+working+when+on+same+server+as+IIS">  Loopback checking?</a>
+<br>
+<a href="https://developers.arcgis.com/geotrigger-service/guide/geotrigger-py/" target="_blank">GeoTrigger </a>
+<br />
+<a href ="http://help.arcgis.com/en/arcgisdesktop/10.0/help/index.html#//00s300000023000000" target="_blank">Time Aware Python Script</a>
+<br />
+<a href="https://kuler.adobe.com/" target="_blank">Adobe Kuler</a>
+<br />
+<a href="http://www.bloggersworld.com/index.php/aspnet-mvc-for-beginnersdummies/" target="_blank">MVC??</a>
+   <br /> 
+  <a href="https://outlook.office365.com/owa/?realm=remetrix.com&wa=wsignin1.0#path=/people" target= "_blank">E-mail</a><br/>
+    <a href="newsetup.html" target="_blank">New Setup</a><br/>
+    <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-automatic-deployment-with-git-with-a-vps">deploy Git to production</a>
+<a href="http://www.esri.com/esri-news/arcuser/spring-2014/10-open-source-projects-every-javascript-geo-dev-should-know-about">10 Useful GeoDev JavaScript Apps</a>
+    </div>
+
+<div id="mySites" class="right" style="display:inline-block; vertical-align: top;">
+    <a href="../indydev" target="_blank">Indy Development</a><br>
+    <a href="../solutionscenter_analysis" target="_blank">Solution Center Analysis</a><br>
+    <a href="../angularjs_analysis" target="_blank">AngularJS</a><br>
+    <a href="../pythonPower_analysis" target="_blank">Python Power Analysis</a><br>
+    <a href="../semaps_analysis" target="_blank">SeMAPS Analysis</a><br>
+    <a href="../semaps" target="_blank">SeMAPS</a>(must be vpn'd in)<br>
+    <a href="../donlen_analysis" target="_blank">Donlen Analysis</a><br>
+    <a href="../jeffmyers" target="_blank">Jeff Myers</a><br>
+    <a href="../geofence_analysis/" target="_blank">GeoFence Analysis</a><br/>
+    <a href="../parapro_analysis" target="_blank">ParaPro Analysis</a><br>
+    <a href="../nopcommerce_project" target="_blank">nop Commerce Demo Site</a><br>
+    <a href="../stopUnconfirmed/Stop" target="_blank">Donlen Stops</a><br>
+	<a href="../orders/App/orders/orders.html" target="_blank">Brake Orders</a><br>
+	<a href="../productmap/Website/App/orders/orders.html" target="_blank">Product Map</a><br>
+	<a href="../trimbrews" target="_blank">Tri-M Database</a> (test area playground)<br>
+    <a href="../brackets" target="_blank">Brackets</a><br>
+    <a href="../phpmyadmin" target="_blank">phpmyadmin</a> (only available from local)<br>
+    <a href="../esriAPI" target="_blank">ESRI API</a> (local ESRI Javascript API)<br>
+    <a href="../projectManagementSoftware" target="_blank">Project Managwment No CODE!!  3rd Party Sytems Only</a> <br>
+
+
+
+
+</div>
+<div>
+	<div class="notes">
+		My express databases are stored  c:\program fields\Microsoft SQL Server\MSQL 10_50.SQLEXPRESS\MSSQL\DATA..<br>
+		
+		
+	</div>
+	
+</div>
+<div>
+    
+<!--
+        <div data-dojo-type="dojox/calendar/Calendar"
+     data-dojo-props="dateInterval:'month'"
+     style="position:relative;width:600px;height:600px">
+</div>
+-->
+
+    </div>
+    </body>
+
+</html>
