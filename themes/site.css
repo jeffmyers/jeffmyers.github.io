@@ -1,0 +1,39 @@
+	#center-title{
+		width:468px;
+		height:60px;
+	   margin-left:auto;
+		margin-right:auto;
+		font-weight: normal;
+		font-size:48px;
+		font-family: monospace;
+
+	}
+	
+			body
+	{
+		color: #ffffff;
+		background-color:#000000
+	}
+	/* unvisited link */
+	a:link {
+	    color:#B39B04
+	}
+	/* visited link */
+	a:visited {
+	    color: F5EBAB;
+	}
+	/* mouse over link */
+	a:hover {
+	    color: 6B653E;
+	}
+	/* selected link */
+	a:active {
+	    color: #ffffff;
+	}
+.right
+{
+position: absolute;
+    right: 0px;
+    width: 300px;
+   
+}
